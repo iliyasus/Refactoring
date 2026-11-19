@@ -1,0 +1,25 @@
+from enum import Enum
+
+
+class CustomerType(str, Enum):
+    VIP = "vip"
+
+
+class OrderStatus(str, Enum):
+    NEW = "new"
+    PAID = "paid"
+    SHIPPED = "shipped"
+    DELIVERED = "delivered"
+
+
+HIGH_VALUE_DISCOUNT_THRESHOLD = 10000
+HIGH_VALUE_DISCOUNT_RATE = 0.1
+MID_VALUE_DISCOUNT_THRESHOLD = 5000
+MID_VALUE_DISCOUNT_RATE = 0.05
+VIP_DISCOUNT_RATE = 0.2
+
+FREE_SHIPPING_THRESHOLD = 3000
+SHIPPING_COST = 300
+
+PAYMENT_TIMEOUT_SECONDS = 1800
+MAX_ITEMS_PER_ORDER = 50

@@ -1,0 +1,12 @@
+[tool.black]
+# A 100-character limit keeps compact exercise code readable without unnecessary wrapping.
+line-length = 100
+# Preserve single quotes where they are used in project code.
+skip-string-normalization = true
+
+[tool.pylint."messages control"]
+# too-few-public-methods is a design heuristic; this exercise's Shop intentionally has one operation.
+disable = ["too-few-public-methods"]
+
+# Keep unused-import enabled so accidental imports remain visible.
+enable = ["unused-import"]

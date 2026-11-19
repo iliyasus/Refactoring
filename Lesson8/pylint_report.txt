@@ -1,0 +1,22 @@
+﻿************* Module accounts
+Lesson8\accounts.py:8:11: W0718: Catching too general exception Exception (broad-exception-caught)
+Lesson8\accounts.py:14:4: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+Lesson8\accounts.py:14:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+************* Module legacy_samples
+Lesson8\legacy_samples.py:28:0: C0301: Line too long (160/100) (line-too-long)
+Lesson8\legacy_samples.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+Lesson8\legacy_samples.py:9:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+Lesson8\legacy_samples.py:9:7: C0121: Comparison 'flag == True' should be 'flag is True' if checking for the singleton value True, or 'flag' if testing for truthiness (singleton-comparison)
+Lesson8\legacy_samples.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+Lesson8\legacy_samples.py:18:4: W0702: No exception type(s) specified (bare-except)
+Lesson8\legacy_samples.py:22:0: C0116: Missing function or method docstring (missing-function-docstring)
+Lesson8\legacy_samples.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+Lesson8\legacy_samples.py:27:10: E0602: Undefined variable 'missing_name' (undefined-variable)
+Lesson8\legacy_samples.py:3:0: W0611: Unused import json (unused-import)
+Lesson8\legacy_samples.py:4:0: W0611: Unused import os (unused-import)
+************* Module main
+Lesson8\main.py:3:0: W0611: Unused import json (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 5.58/10 (previous run: 5.58/10, +0.00)
+

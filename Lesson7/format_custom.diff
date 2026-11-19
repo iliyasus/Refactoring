@@ -1,0 +1,20 @@
+--- shop.py	2026-11-05 10:57:01.624123+00:00
++++ shop.py	2026-11-05 10:57:35.037993+00:00
+@@ -1,14 +1,14 @@
+ """Simple shop example for the linting exercise."""
+ 
+ 
+ def avg(numbers):
+     """Return the arithmetic mean of numbers."""
+-    total=0
++    total = 0
+     for number in numbers:
+-        total+=number
+-    return total/len(numbers)
++        total += number
++    return total / len(numbers)
+ 
+ 
+ def find_user(users, name):
+     """Return the user whose name matches, or None if no user matches."""
+     for user in users:

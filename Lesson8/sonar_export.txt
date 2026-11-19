@@ -1,0 +1,21 @@
+SonarQube for IDE — текстовый журнал задания 22.1
+
+Объект анализа: C:\Users\Admin\Desktop\Refactoring\Lesson8
+Файлы:
+  accounts.py — анализ запущен
+  main.py     — анализ запущен
+  pricing.py  — анализ запущен
+
+Отображаемый результат панели SonarQube:
+  No SonarQube issues to display.
+
+Проблемы IDE: ошибок не найдено.
+
+Итого отображено: 0
+  Баги: 0
+  Code smell: 0
+  Security hotspot: 0
+
+Примечание: запрос списка Security Hotspots сообщил, что папка не связана с удаленным
+проектом SonarQube Server/Cloud и для получения этих данных нужен Connected Mode.
+Это журнал отображенных результатов, а не отчет о том, что все проверки кода пройдены.
