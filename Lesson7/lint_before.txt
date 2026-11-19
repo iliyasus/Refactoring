@@ -1,0 +1,18 @@
+************* Module shop
+shop.py:27:0: C0304: Final newline missing (missing-final-newline)
+shop.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+shop.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+shop.py:9:4: W0612: Unused variable 'unused' (unused-variable)
+shop.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+shop.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+shop.py:20:0: C0103: Class name "shop" doesn't conform to PascalCase naming style (invalid-name)
+shop.py:24:4: C0116: Missing function or method docstring (missing-function-docstring)
+shop.py:25:11: C0121: Comparison 'price == None' should be 'price is None' (singleton-comparison)
+shop.py:20:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+shop.py:1:0: W0611: Unused import os (unused-import)
+shop.py:2:0: W0611: Unused import random (unused-import)
+
+-----------------------------------
+Your code has been rated at 4.00/10
+
+Total diagnostics: 12

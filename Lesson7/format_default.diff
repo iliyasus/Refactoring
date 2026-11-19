@@ -1,0 +1,35 @@
+--- shop.py	2026-11-05 10:57:01.624123+00:00
++++ shop.py	2026-11-05 10:57:34.807269+00:00
+@@ -1,20 +1,20 @@
+ """Simple shop example for the linting exercise."""
+ 
+ 
+ def avg(numbers):
+     """Return the arithmetic mean of numbers."""
+-    total=0
++    total = 0
+     for number in numbers:
+-        total+=number
+-    return total/len(numbers)
++        total += number
++    return total / len(numbers)
+ 
+ 
+ def find_user(users, name):
+     """Return the user whose name matches, or None if no user matches."""
+     for user in users:
+-        if user['name'] == name:
++        if user["name"] == name:
+             return user
+     return None
+ 
+ 
+ class Shop:
+@@ -25,6 +25,6 @@
+ 
+     def add(self, item, price):
+         """Add an item unless its price is unspecified."""
+         if price is None:
+             return
+-        self.items.append({'item': item, 'price': price})
++        self.items.append({"item": item, "price": price})

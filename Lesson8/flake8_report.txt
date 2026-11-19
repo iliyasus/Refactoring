@@ -1,0 +1,9 @@
+﻿Lesson8\legacy_samples.py:1:80: E501 line too long (82 > 79 characters)
+Lesson8\legacy_samples.py:3:1: F401 'json' imported but unused
+Lesson8\legacy_samples.py:4:1: F401 'os' imported but unused
+Lesson8\legacy_samples.py:8:5: F841 local variable 'unused_cache' is assigned to but never used
+Lesson8\legacy_samples.py:9:13: E712 comparison to True should be 'if cond is True:' or 'if cond:'
+Lesson8\legacy_samples.py:18:5: E722 do not use bare 'except'
+Lesson8\legacy_samples.py:27:11: F821 undefined name 'missing_name'
+Lesson8\legacy_samples.py:28:80: E501 line too long (160 > 79 characters)
+Lesson8\main.py:3:1: F401 'json' imported but unused
