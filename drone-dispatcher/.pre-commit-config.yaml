@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: Ruff check
+        entry: python -m ruff check
+        language: system
+        types: [python]
+        files: ^(drone-dispatcher/)?(dispatcher\.py|flight_logger\.py|tests/.*\.py)$
