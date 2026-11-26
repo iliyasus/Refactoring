@@ -1,0 +1,21 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: Ruff check
+        entry: python -m ruff check --fix --config quality-gate-lab/pyproject.toml
+        language: system
+        types: [python]
+        files: ^quality-gate-lab/.*\.py$
+      - id: ruff-format
+        name: Ruff format
+        entry: python -m ruff format --config quality-gate-lab/pyproject.toml
+        language: system
+        types: [python]
+        files: ^quality-gate-lab/.*\.py$
+      - id: pytest
+        name: Pytest
+        entry: python -m pytest -q -c quality-gate-lab/pyproject.toml quality-gate-lab/tests
+        language: system
+        pass_filenames: false
+        always_run: true
